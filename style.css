@@ -5,18 +5,13 @@ html{
 
 *,*:before, *:after{
     box-sizing: inherit;
+    overflow-x: hidden;
 }
 body{
     padding: 0;
     margin: 0;
 }
 
-.contenedor{
-    max-width: 100%;
-    @media (min-width: 768px) { 
-        width: 100%;
-    }
-}
 
 
 .navegacion{
