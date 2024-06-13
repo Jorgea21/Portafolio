@@ -11,6 +11,21 @@ body{
     margin: 0;
 }
 
+.contenedor{
+    width: none;
+    margin: none;
+@media (min-width: 768px) { 
+    .contenedor{
+   width: min(90%, 120rem);
+   margin: 0 auto;
+}
+}
+}
+
+
+
+
+
 .navegacion{
     display: flex;
     flex-direction: column;
