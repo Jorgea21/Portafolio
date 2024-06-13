@@ -1,0 +1,177 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    @media (min-width: 768px) { 
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+ @media (max-width: 768px) {
+      .navbar-toggler {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    }
+/*Profile*/
+.profile{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         margin: 3rem 0;
+        
+
+         p{
+            font-size: 1.5rem;
+         }
+}
+
+.title, .sobremi-title, .formulario-title{
+    padding: 3rem 0;
+    text-align: center;
+    font-weight: 900;
+}
+
+/*Portfolio*/
+
+.portfolio, .formulario{
+   
+    background: linear-gradient(to top, rgb(80, 80, 80), rgba(0, 128, 0, 0.541));
+    padding: 0 5rem;
+
+    img{
+        border-radius: 2rem;
+        border: 5px solid rgb(0, 58, 0);
+    }
+}
+
+
+.portfolio-proyect{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+@media (min-width: 768px) { 
+    .portfolio-proyect{
+        padding-bottom: 3rem;
+        
+    }
+}
+
+.col{
+        margin-top: 2rem;
+}
+
+/*Acerca de Mi*/
+.sobremi-title{
+    font-size: 2.3rem;
+}
+
+.sobremi{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0 25rem;
+font-size: 1.5rem;
+margin-bottom: 4rem;
+    p{
+        text-align: center;
+        
+    }
+
+}
+
+.container{
+    label{
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    textarea{
+        border-radius: .5rem;
+        margin-bottom: 2rem;
+        width: 100%;
+     
+    }
+}
+
+.boton{
+    border: none;
+    background-color: chartreuse;
+    padding: 1rem 3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer{
+    color: white;
+    margin-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.footer-container{
+    margin-left: 2rem;
+
+    h3{
+        text-transform: uppercase;
+    }
+
+    p{
+        margin: 0;
+    }
+
+    a{
+        color: white;
+    }
+    
+}
+
+.icon{
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+}
+
+.icon:hover{
+        cursor: pointer;
+}
+
+.derechos{
+    text-align: center;
+    margin-top: 2rem;
+    position: relative;
+    top: 3rem;
+   
+}
+
+
+
+   
+    
