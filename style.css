@@ -23,7 +23,11 @@ body{
      }
 }
 
+.foto-perfil{
+    margin-top: 2rem;
+    border-radius: 50%;
 
+}
 .navegacion{
     display: flex;
     flex-direction: column;
